@@ -1,0 +1,269 @@
+*{
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+/* -----------------header and navigation styles-------------------- */
+.header{
+    background-color:antiquewhite;
+}
+
+.nav-title{
+    position: relative;
+    top: 20px;
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 240px;
+}
+nav li{
+    list-style: none;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+nav ul{
+    display: flex;
+}
+/* ---------------banner--------------- */
+.banner{
+    text-align: center;
+    margin-top: 90px;
+}
+.pragraph{
+     position: relative;
+     top: 15px;
+}
+.btn{
+    position: relative;
+    margin-left: 700px;
+    height: 40px;
+    width: 120px;
+    margin-top: 40px;
+    background-color: orange;
+    border-radius: 5px;
+    border-style: none;
+}
+.banner-images{
+    position: relative;
+    height: 500px;
+    width: 1100px;
+    margin-left: 200px;
+    margin-top: 40px;
+}
+/*---------------------------- Main section-1 ------------------- */
+.main-images{
+    display: grid;
+    grid-template-columns:repeat(2, 1fr);
+    grid-row-gap:15px;
+    grid-column-gap:15px;
+    position: relative;
+    top: 50px;
+    margin-left: 200px;
+ }
+ .first-section{
+    display: flex;
+ }
+ .title{
+    position: relative;
+    margin-left:50px ;
+    top: 280px;
+ }
+ .text-color{
+    color:darkgray;
+ }
+.title-2{
+    color: orange;
+}
+.main-paragraph{
+    position: relative;
+    top: 20px;
+    font-size: 12px;
+}
+.btn-2{
+    position: relative;
+    top: 40px ;
+    height: 40px;
+    width: 120px;
+    border-radius: 5px;
+    background-color: orange;
+    border-style: none;
+}
+.horizental-line{
+    position: relative;
+    top: 200px;
+    width: 90px;
+    height: 4px;
+    margin-left: 120px;
+    rotate: 90deg;
+    background-color: darkorange;
+}
+/* section-2 */
+.text-container{
+    position: relative;
+    top: 160px;
+    margin-left: 190px;
+    font-size: 30px;
+}
+.text-section{
+    position: relative;
+    top: 200px;
+    margin-left: 155px;
+    display: flex;
+}
+.text-container-2{
+    position: relative;
+    top: 80px;
+    border: 2px solid red;
+    width: 600px;
+    height: 120px;
+    padding: 15px 30px 15px 30px;
+    background-color:whitesmoke;
+    border-style: none;
+}
+.text-container-3{
+    position: relative;
+    top: 80px;
+    border: 2px solid red;
+    width: 600px;
+    height: 120px;
+    padding: 15px 30px 15px 30px;
+    background-color: whitesmoke;
+    border-style: none;
+}
+.text-container-4{
+    position: relative;
+    top: 80px;
+    border: 2px solid red;
+    width: 600px;
+    height: 120px;
+    padding: 15px 30px 15px 30px;
+    background-color: whitesmoke;
+    border-style: none;
+    
+}
+.text-container-1{
+    position: relative;
+    top: 80px;
+    border: 2px solid red;
+    width: 600px;
+    height: 120px;
+    padding: 15px 30px 15px 30px ;
+    background-color: whitesmoke;
+    border-style: none;
+}
+.text-images{
+    position: relative;
+    margin-left: 50px;
+    bottom: 140px;
+}
+.text-images-1{
+    height: 850px;
+    width: 550px;
+}
+.btn-3{
+    position: relative;
+    height: 150px;
+    width: 250px;
+    bottom: 70px;
+    left: 680px;
+    z-index: 1;
+    background-color: orange;
+    border-radius: 5px;
+    font-size: 30px;
+    color: white;
+    border-style: none;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+/* -------------Last-icon--------------- */
+.text-icon{
+    position: relative;
+    top: 200px;
+    margin-left: 150px;
+}
+.images-icon{
+    position:relative ;
+    top: 300px;
+    display:flex;
+    justify-content: center;
+    gap: 100px;
+}
+.icon-1{
+    border: 1px solid orange;
+    height: 170px;
+    width: 170px;
+    background-color: white;
+    border-radius:5px ;
+}
+.icon-2{
+    border: 1px solid orange;
+    height: 170px;
+    width: 170px;
+    background-color:white;
+    border-radius:5px ;
+}
+.icon-3{
+    border: 1px solid orange;
+    height: 170px;
+    width: 170px;
+    background-color:white ;
+    border-radius: 5px;
+}
+.icon-4{
+    border: 1px solid orange;
+    height: 170px;
+    width: 170px;
+    background-color: white;
+    border-radius: 5px;
+}
+.last-text{
+    position: relative;
+    top: 400px;
+    margin-left: 650px;
+}
+.last-pragraph-1{
+    position: relative;
+    right: 160px;
+    top: 20px;
+}
+.last-pragraph-2{
+    position: relative;
+    right: 70px;
+    top: 20px;
+}
+.icon{
+    display: flex;
+    position: relative;
+    top: 500px;
+    gap: 100px;
+    margin-left: 200px;
+    filter: grayscale(100%);
+    
+}
+/* ----------------------------Footer-------------------------------- */
+.footer{
+    position: relative;
+    left: 200px;
+    top: 550px;
+    border: 2px solid red;
+    width: 850px;
+    height: 30px;
+    padding: 50px 0px 0px 300px;
+    background-color:antiquewhite;
+    border-style: none;
+    border-radius: 5px;
+}
+/* .last-icon-1{
+    position: relative;
+    background-color: white;
+} */
+.last-pragraph{
+    padding: 0px 0px 0px 40px;
+}
+/* -------------------------Midea Queries----------------------------- */
+@media only screen and (max-width:688px) {
+    
+}
